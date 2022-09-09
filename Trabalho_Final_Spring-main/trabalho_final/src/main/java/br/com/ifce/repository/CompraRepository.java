@@ -3,10 +3,13 @@ package br.com.ifce.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import br.com.ifce.model.Cliente;
+import br.com.ifce.model.Compra;
+
+
+
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente, Long>{
-
+public interface CompraRepository extends JpaRepository<Compra, Long>{
+	
 	
 }

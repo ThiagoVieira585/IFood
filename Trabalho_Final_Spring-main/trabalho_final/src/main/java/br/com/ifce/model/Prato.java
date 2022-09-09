@@ -7,14 +7,14 @@ import javax.persistence.Id;
 
 @Entity
 public class Prato {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long codigo;
-	
+
 	private String nome;
-	
-	private float preco;
+
+	private Double preco;
 
 	public Long getCodigo() {
 		return codigo;
@@ -32,12 +32,12 @@ public class Prato {
 		this.nome = nome;
 	}
 
-	public float getPreco() {
+	public Double getPreco() {
 		return preco;
 	}
 
-	public void setPreco(float preco) {
+	public void setPreco(Double preco) {
 		this.preco = preco;
 	}
-	
+
 }

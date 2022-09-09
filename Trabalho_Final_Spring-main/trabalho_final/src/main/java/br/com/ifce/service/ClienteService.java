@@ -17,9 +17,5 @@ public class ClienteService {
 		
 	}
 
-	public Cliente Login(String email, String senha) {
-		Cliente cliLogin = clienteRepository.Login(email, senha);
-		return cliLogin;
-	}
-
+	
 }
